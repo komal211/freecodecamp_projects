@@ -1,0 +1,30 @@
+#main{
+  background-color:#C8C8C8	 ;
+}
+#title{
+  color: dark-grey;
+  font-family: arial;
+  text-align: center;
+}
+#image{
+  border-radius: 8px;
+    border: 5px solid white;
+  width: 100%;
+  height: auto;
+  max-width:  625px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+
+}
+#img-div{
+  color:  white;
+  text-align:  center;
+}
+#img-caption{
+  text-align: center;
+    font-family: arial;
+  font-style: italic;
+  font-size: 15px;
+
+}
