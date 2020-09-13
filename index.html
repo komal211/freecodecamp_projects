@@ -1,0 +1,37 @@
+<body><h1 id="title">Form</h1>
+<p id="description">Please fill out this form and thank you for taking the time.</p>
+  
+<form id="survey-form">
+ <br>
+      <label for="fullname" id="name-label">Enter your full name:</label><br>
+      <input type="text" name="fullname" placeholder="Full Name" id="name" required><br>
+<label  for="emailid" id="email-label">Enter your email address:</label><br>
+      <input type="email" name="emailid" id="email" placeholder="abc@gmail.com" required>
+   <br>
+  <label for="age" id="number-label"> Age:</label><br>
+      <input type="number" name="age" id="number" placeholder="1 to 100" min="1" max="100"><br>
+  <label for="hobbies" id="hobbie-label">Hobbies:</label>
+  <br>
+  <select name="hobbies" id="dropdown">
+    <option value="read">Reading</option>
+    <option value="draw">Drawing</option>
+    <option value="movie">Watching movies</option>
+  </select>
+  <br>
+  <label for="gender" id="gender-label">Gender:</label>
+  <br>
+  <input type="radio" name="gender" value="male">Male</input>
+    <input type="radio" name="gender" value="female">Female</input>
+<br>
+  <label for="weather" id="weather-label">Weather:</label>
+<input type="checkbox" name="w1" value="weather">Sunny</input>
+<input type="checkbox" name="w2" value="weather">Rainy</input>
+<br>
+<textarea name="comment" id="comment">Enter any comments....</textarea>
+<br>
+<button id="submit" type="submit">Submit</button>
+<br>
+    
+</form>
+</div>
+</body>
